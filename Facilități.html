@@ -56,7 +56,7 @@
     />
   </head>
   <body>
-    <section
+    <div
       data-bs-version="5.1"
       class="menu menu6 cid-uAdu2lOcfz"
       once="menu"
@@ -68,21 +68,17 @@
         <div class="container">
           <div class="navbar-brand">
             <span class="navbar-logo">
-            
-                <img
-                  src="assets/images/logo.png"
-                  alt="o căsuță galbenă lângă un copac și cateva păsări"
-                  style="height: 4.5rem"
-                />
-              </a>
+              <img
+                src="assets/images/logo.png"
+                alt="o căsuță galbenă lângă un copac și cateva păsări"
+                style="height: 4.5rem"
+              />
             </span>
-            <span class="navbar-caption-wrap"
-              ><h1
-                class="navbar-caption text-black display-4"
-           
-                >Pensiunea Roua Dimineții</h1
-              ></span
-            >
+            <div class="navbar-caption-wrap">
+              <h1 class="navbar-caption text-black display-4">
+                Pensiunea Roua Dimineții
+              </h1>
+            </div>
           </div>
           <button
             class="navbar-toggler"
@@ -95,12 +91,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <div class="hamburger">
+            <span class="hamburger">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </div>
+            </span>
           </button>
           <div
             class="collapse navbar-collapse opacityScroll"
@@ -143,7 +139,7 @@
           </div>
         </div>
       </nav>
-    </section>
+    </div>
 
     <section
       data-bs-version="5.1"
@@ -378,15 +374,9 @@
       </div>
     </section>
 
-    <section
-      data-bs-version="5.1"
-      class="gallery4 cid-uAdXbyyV9y"
-      id="gallery04-g"
-    >
+    <div data-bs-version="5.1" class="gallery4 cid-uAdXbyyV9y" id="gallery04-g">
       <div class="container-fluid gallery-wrapper">
-        <div class="row justify-content-center">
-          <div class="col-12 content-head"></div>
-        </div>
+        <div class="row justify-content-center"></div>
         <div class="grid-container">
           <div
             class="grid-container-1"
@@ -411,7 +401,10 @@
               />
             </div>
             <div class="grid-item">
-              <img src="assets/images/foc.png" alt="imaginea unui foc într-un șemineu" />
+              <img
+                src="assets/images/foc.png"
+                alt="imaginea unui foc într-un șemineu"
+              />
             </div>
           </div>
           <div
@@ -445,26 +438,39 @@
           </div>
         </div>
       </div>
-    </section>
+      <div class="la-facilitati mbr-fonts-style display-7">
+        <p>
+          O selecție generoasă de produse proaspete, de la brânzeturi fine și
+          mezeluri locale, la legume crocante și fructe de sezon. Pâine proaspăt
+          coaptă, croissante pufoase și diverse sortimente de cereale
+          completează oferta.
+        </p>
+        <p>
+          Diverse sortimente de cafea, de la espresso aromat la cappuccino
+          cremos sau latte machiatto. Pentru iubitorii de ceai, avem o varietate
+          de infuzii de plante și ceaiuri negre sau verzi.
+        </p>
+        <p>
+          Smoothie-uri revigorante din fructe proaspete, boluri de iaurt cu
+          granola și miere, precum și diverse salate de fructe. Tartine cu
+          avocado și legume proaspete, hummus și pâine integrală sunt doar
+          câteva dintre opțiunile sănătoase disponibile.
+        </p>
+        <p>
+          Nu lipsesc deserturile tradiționale precum clătitele pufoase cu
+          diverse umpluturi și prăjiturile de casă.
+        </p>
+      </div>
+    </div>
 
-    <section
-      data-bs-version="5.1"
-      class="footer3 cid-uAdyri5epg"
-      once="footers"
-      id="footer03-d"
-    >
+    <div data-bs-version="5.1" class="footer3 cid-uAdyri5epg" id="footer03-d">
       <div class="container">
         <div class="row">
           <div class="row-links">
             <ul class="header-menu">
-              <li class="header-menu-item mbr-fonts-style display-5"></li>
               <li class="header-menu-item mbr-fonts-style display-5">
                 Pensiunea Roua Dimineții
               </li>
-              <li class="header-menu-item mbr-fonts-style display-5">
-            
-              </li>
-              <li class="header-menu-item mbr-fonts-style display-5"></li>
             </ul>
           </div>
 
@@ -502,9 +508,7 @@
           </div>
         </div>
       </div>
-    </section>
-    
-    </section>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/ytplayer/index.js"></script>
